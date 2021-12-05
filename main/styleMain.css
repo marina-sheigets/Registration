@@ -1,0 +1,159 @@
+/*Monserat font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.main a{
+    color:black;
+}
+
+.menu{
+    height:750px;
+    background: linear-gradient(rgba(0,0,0,0.5),
+         rgba(0,0,0,0.5)), url(MainBanner.jpg);
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    color:white;
+}
+
+.login{
+    height:10%;
+  align-items:end;
+  display: flex;
+  justify-content: right;
+  align-items: center; 
+  padding-right:40px;
+  font-size: 20px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height:80%;
+    font-size: 40px;
+}
+
+.search_form{
+    width:30%;
+    margin:30px auto;
+}
+
+input{
+    width:200px;
+    height:40px; 
+    font-size: 18px;
+    border-radius: 20px;
+    border-color: white;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.item1 , .item2
+{
+    display: flex;
+    width:100%;
+}
+
+.user_info
+{
+    position: relative;
+   
+}
+
+.user_info form{
+    width:200px;
+    position:absolute;
+    right:0;
+    top:0;
+    margin-top:10px;
+}
+
+.user_info h2{
+   margin-top:10px;
+   margin-left:20px;
+    width:400px;
+}
+
+.main img{
+    width:50%;
+}
+
+.item1 div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0 60px;
+}
+
+.item2 div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0 30px;
+}
+
+
+div a{
+    font-size: 25px;
+}
+
+div h4{
+    padding: 30px 0 20px;
+}
+
+/*Для поиска*/
+.site-search {
+    width: 100%;
+  }
+  
+  .hide {
+      visibility: hidden;
+      position: absolute;
+  }
+  
+  .show {
+      visibility: visible;
+  }
+
+.footer{
+    width:100%;
+    padding-top:40px;
+background-color: whitesmoke;
+}
+
+.comment{
+width:60%;
+    margin:0 auto;
+    text-align: center;
+}
+
+.comment input{
+    background-color: steelblue;
+    color:white;
+    border:none;
+}
+
+textarea{
+    margin-top:10px;
+    resize:none;
+    padding-left:10px;
+    padding-top:10px;
+    font-size:18px;
+    border:thistle 1px solid;
+}
+
+
+
