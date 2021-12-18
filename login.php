@@ -5,7 +5,7 @@
 
     $email="";
     $password="";
-
+    
     if(isset($_POST["login_submit"]))
    {
       $email=$_POST["email"];

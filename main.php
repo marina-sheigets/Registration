@@ -157,8 +157,13 @@
             <input type="submit" value="Додати коментарій">
         </div>
     </div>
+    <script src="main/patterns/singleton.js"></script>
+    <script src="main/patterns/simplefactory.js"></script>
+    <script src="main/patterns/constructor.js"></script>
+    <script src="main/patterns/decorator.js"></script>
+    <script src="main/patterns/facade.js"></script>
+    <script src="main/patterns/mediator.js"></script>
+    <script src="main/patterns/observer.js"></script>
 
-    <script src="comment.js"></script>
-    <script src="filters.js"></script>
 </body>
 </html>
